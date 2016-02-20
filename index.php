@@ -5,7 +5,7 @@
 
 <?php
 //Connect
-$con = mysql_connect("127.0.0.1","homeshaft","homey");
+$con = mysql_connect("mysqlhost","homeshaft","homey");
 if (!$con) {
     die("Failed to connect: ".mysql_error());
 }
